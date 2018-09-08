@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="TextNumber1 Setting">
+        <CheckBoxPreference
+            android:key = "CHECKBOX_FONT_NUMBER1_TEXT" android:title="chunkFive"
+            android:summary="This is font number 1"
+            android:defaultValue="Chunkfive.otf"
+></CheckBoxPreference>
+
+ <CheckBoxPreference
+android:key="CHECKBOX_FONT_NUMBER2_TEXT1" android:title="Fontleybrown"
+     android:summary="this is font number 2"
+     android:defaultValue="FontleroyBrown.ttf"
+     ></CheckBoxPreference>
+
+       <CheckBoxPreference
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT1" android:title="Wonderbar Demo"
+            android:summary="This is font number 3"
+           android:defaultValue="Wonderbar Demo.otf"
+            ></CheckBoxPreference>
+<ListPreference  android:key="FONT_SIZE_TEXT1"
+    android:title="specify th esize of your fonts for textview1"
+    android:dialogTitle="choose one of this size"
+    android:entries="@array/font_sizes"
+android:entryValues="@array/font_sizes_values"
+    android:defaultValue="10"
+    ></ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="TextNumber2 Setting">
+        <CheckBoxPreference
+            android:key = "CHECKBOX_FONT_NUMBER1_TEXT2" android:title="chunkFive"
+            android:summary="This is font number 1"
+            android:defaultValue="Chunkfive.otf"
+            ></CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT2" android:title="Fontleybrown"
+            android:summary="this is font number 2"
+            android:defaultValue="FontleroyBrown.ttf"
+            ></CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT2" android:title="Wonderbar Demo"
+            android:summary="This is font number 3"
+            android:defaultValue="Wonderbar Demo.otf"
+            ></CheckBoxPreference>
+        <ListPreference  android:key="FONT_SIZE_TEXT2"
+            android:title="specify th esize of your fonts for textview1"
+            android:dialogTitle="choose one of this size"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10"
+            ></ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Text Number 3 settings">
+
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER1_TEXT3" android:title="Chunkfive"
+            android:summary="This is font number 1"
+            ></CheckBoxPreference>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT3" android:title="FontleroyBrown"
+            android:summary="This is font number 2"
+            ></CheckBoxPreference>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT3" android:title="Wonderbar Demo"
+            android:summary="This is font number 3"
+            ></CheckBoxPreference>
+
+        <ListPreference   android:key="FONT_SIZE_TEXT3"
+            android:title="specify the size of your fonts for TextView2"
+            android:dialogTitle="Choose one of these sizes"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10">0
+
+        </ListPreference>
+
+
+
+    </PreferenceCategory>
+
+
+
+
+
+</PreferenceScreen>
